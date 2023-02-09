@@ -1,0 +1,153 @@
+
+    body{
+        margin: 0;
+        padding: 0;
+       background: url(image/spa.jpg) ;   
+    }
+    header {
+        
+        display:flexbox;
+        align-items: center;
+       
+        text-align: center;
+        padding: 20px;
+        height: 300px;
+        background: url(https://plus.unsplash.com/premium_photo-1667128695640-ebdc4c409c5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80)
+        bottom no-repeat;
+        background-size: cover;
+        color: #f2f2f6;
+           
+    }
+
+    .form {
+        display:flexbox;
+        align-items:center;
+        justify-content: center;
+        padding-left: 50px;
+        text-align: center;
+        font-size: 2rem;
+        color: #f2f2f6;
+        
+       
+    }
+    .form h1{
+        color:   hsla(180, 93%, 45%, 0.896);
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 3px;
+    }
+    form input{
+        margin: 5px;
+        height: 25px;
+        
+
+    }
+    div a {
+        color: rgb(238, 231, 234);
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+    div a:hover {
+        color: #28900cfe
+    }
+    header h1{
+        color: rgb(223, 240, 240);
+        font-size: 3rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        margin-bottom: 58px;
+    }
+    .login{
+        font-size: 3rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:  hsla(176, 97%, 47%, 0.874);
+    }
+    
+    .menulist {
+        
+     padding: 50px 0 32px;
+     color: #0bdccb;
+     font-weight:bold;
+     
+            
+    }
+    article:nth-child(even) {
+        background: hsla(240, 100%, 50%, 0.584);
+    }
+    
+    article:nth-child(odd) {
+        background: #1f91307f;
+    }
+    article:nth-child(1) h2::before { 
+        content: "New ";
+        color: rgb(158, 29, 68);
+    }   
+    
+    article {
+        
+        width: 768px;;
+        margin:0 auto 50px;
+        padding: 6px 15px;
+        border-bottom: 1px solid rgb(87, 129, 19);
+        
+    
+    }
+    
+    article a {
+        color:rgb(239, 240, 227);
+        text-decoration: none;
+    }
+    article a:hover {
+        color: #0ffd0f
+    }
+     h2 {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 5px;
+        
+    }
+    .article-meta {
+        font-size: 20px;
+        color: #e9e9ef;
+        margin-bottom: 5px;
+    }
+    article img{
+        width: 100%;
+        height: 300px;
+        object-fit:cover;
+    }
+    
+    footer {
+        padding-top: 20px;
+        padding-bottom: 60px;
+        text-align: center;
+        background: url(https://images.unsplash.com/photo-1668369216554-5a91e506d1cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80)
+        bottom no-repeat;
+        background-size: cover;
+        height: 30px;
+       
+        
+    }
+    
+    footer .Links {
+        margin-bottom: 50px;
+    }
+    
+    footer .Links > a {
+        color: rgb(54, 219, 224);
+        padding: 0 25px;
+        font-size: 13px;
+        font-weight: 300;
+        letter-spacing: .1rem;
+        text-decoration: none;
+        text-transform:uppercase;
+    
+    }
+    .Links a:hover{
+        color: #a10202;
+        
+    }
+    
+    .copyright{
+        color:rgba(47, 11, 145, 0.774);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
